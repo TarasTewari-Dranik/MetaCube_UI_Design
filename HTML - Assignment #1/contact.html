@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+    ul {
+      list-style-type: none;
+      text-align: right;
+    }
+    li {
+      display: inline;
+    }
+    #contactUsImg {
+      display: block;
+      width:50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    table {
+      align: justify;
+      width:20%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <table style = "width:100%">
+        <tr>
+          <th><img src="images/HTML5_Logo.png" height="50" width="50"/></th>
+          <th>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </th>
+        </tr>
+      </table>
+      <hr>
+    </header>
+    <section>
+      <img id = "contactUsImg" src="images/contactus.jpeg"/>
+      <br />
+      <br />
+    </section>
+      <form>
+        <table>
+          <tr>
+            <td>Name:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><input type="email" /></td>
+          </tr>
+          <tr>
+            <td>City:</td>
+            <td>
+              <select>
+                <option value = "Almere">Almere</option>
+                <option value = "Amsterda">Amsterdam</option>
+                <option value = "Breda">Breda</option>
+                <option value = "Eindhoven">Eindhoven</option>
+                <option value = "Groningen">Groningen</option>
+                <option value = "Nijmegen">Nijmegen</option>
+                <option value = "Rotterdam">Rotterdam</option>
+                <option value = "The Hague">The Hague</option>
+                <option value = "Tilburg">Tilburg</option>
+                <option value = "Utrecht">Utrecht</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Organization Name:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Contact Number:</td>
+            <td><input type="tel" /></td>
+          </tr>
+          <tr>
+            <td>Message:</td>
+            <td>
+              <textarea style="resize:none" rows = "3" cols = "25" name = "message">Enter message here...
+              </textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Submit"/></td>
+          </tr>
+      </table>
+      </form>
+    <footer>
+      <hr>
+      <h5 align="center">@Copyright2016-17|All Rights Reserved|Metacube Training</h5>
+
+    </footer>
+
+  </body>
+</html>
